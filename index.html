@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="todoHeader">To-do List </h1>
+        <div class="tasks">
+            <div class="task ">All Tasks<p id="allTasks">0</p>
+            </div>
+            <div class="task">Tasks Done<p id="tasksDone">0</p>
+            </div>
+        </div>
+        <div>
+            <p><input type="date" id="dateInput" /></p>
+            <p><input type="time" id="timeInput" /></p>
+        </div>
+        <input type="text" placeholder="Type a new task" class="taskInp" id="taskInput" />
+        <button class="btn" onclick="AddTask()">Add</button>
+        <div id="listContainer">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
