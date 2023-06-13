@@ -14,9 +14,6 @@ function AddTask() {
     if (taskValue.value === "") {
         alert("You need to enter a task")
     }
-    if (dateValue == "" && timeValue == "") {
-        alert("Enter the deadline for the task ")
-    }
     else {
         const content = document.createElement("div")
         content.innerHTML = taskValue.value
